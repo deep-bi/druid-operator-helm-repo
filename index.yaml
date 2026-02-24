@@ -1,64 +1,5 @@
 apiVersion: v1
 entries:
-  altinity-clickhouse-operator:
-  - apiVersion: v2
-    appVersion: 0.21.1
-    created: "2025-10-08T20:06:21.888475824+05:30"
-    description: Helm chart to deploy [altinity-clickhouse-operator](https://github.com/Altinity/clickhouse-operator).  The
-      ClickHouse Operator creates, configures and manages ClickHouse clusters running
-      on Kubernetes.
-    digest: 07ff7df33091102d719c3e0af2db34dc759f6307b08ca36c2aea1d1707505151
-    home: https://github.com/Altinity/clickhouse-operator
-    icon: https://logosandtypes.com/wp-content/uploads/2020/12/altinity.svg
-    maintainers:
-    - email: support@altinity.com
-      name: altinity
-    name: altinity-clickhouse-operator
-    type: application
-    urls:
-    - https://charts.datainfra.io/helm-releases/altinity-clickhouse-operator-0.21.1.tgz
-    version: 0.21.1
-  chi:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2025-10-08T20:06:21.889602858+05:30"
-    description: A Helm chart for Kubernetes
-    digest: ee805cef17af5c9330c5d48d0f89cce36a622851f5ca72c7007ebb25cf4306fc
-    name: chi
-    type: application
-    urls:
-    - https://charts.datainfra.io/helm-releases/chi-0.0.4.tgz
-    version: 0.0.4
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2025-10-08T20:06:21.889315083+05:30"
-    description: A Helm chart for Kubernetes
-    digest: a99bcb75fec8fe82aa6fdc4e8a4ed91ff2c5174126fc1da9e4eddf639649981a
-    name: chi
-    type: application
-    urls:
-    - https://charts.datainfra.io/helm-releases/chi-0.0.3.tgz
-    version: 0.0.3
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2025-10-08T20:06:21.889021978+05:30"
-    description: A Helm chart for Kubernetes
-    digest: 206e820aaa8e2e23fe2e94d29782563e3d1873753e0bc913e28e02a6e078cafd
-    name: chi
-    type: application
-    urls:
-    - https://charts.datainfra.io/helm-releases/chi-0.0.2.tgz
-    version: 0.0.2
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2025-10-08T20:06:21.888779574+05:30"
-    description: A Helm chart for Kubernetes
-    digest: 89f5563863c2f3d629c4ba10510f540e1b12f064ccdf19a3c6a9b1a78a547760
-    name: chi
-    type: application
-    urls:
-    - https://charts.datainfra.io/helm-releases/chi-0.0.1.tgz
-    version: 0.0.1
   druid-operator:
   - apiVersion: v2
     appVersion: v1.3.1
@@ -69,7 +10,7 @@ entries:
     name: druid-operator
     type: application
     urls:
-    - https://charts.datainfra.io/helm-releases/druid-operator-0.4.0.tgz
+    - https://charts.deep.bi/helm-releases/druid-operator-0.4.0.tgz
     version: 0.4.0
   - apiVersion: v2
     appVersion: v1.3.0
@@ -80,7 +21,7 @@ entries:
     name: druid-operator
     type: application
     urls:
-    - https://charts.datainfra.io/helm-releases/druid-operator-0.3.9.tgz
+    - https://charts.deep.bi/helm-releases/druid-operator-0.3.9.tgz
     version: 0.3.9
   - apiVersion: v2
     appVersion: v1.2.5
@@ -91,7 +32,7 @@ entries:
     name: druid-operator
     type: application
     urls:
-    - https://charts.datainfra.io/helm-releases/druid-operator-0.3.8.tgz
+    - https://charts.deep.bi/helm-releases/druid-operator-0.3.8.tgz
     version: 0.3.8
   - apiVersion: v2
     appVersion: v1.2.4
@@ -102,7 +43,7 @@ entries:
     name: druid-operator
     type: application
     urls:
-    - https://charts.datainfra.io/helm-releases/druid-operator-0.3.7.tgz
+    - https://charts.deep.bi/helm-releases/druid-operator-0.3.7.tgz
     version: 0.3.7
   - apiVersion: v2
     appVersion: v1.2.3
@@ -113,7 +54,7 @@ entries:
     name: druid-operator
     type: application
     urls:
-    - https://charts.datainfra.io/helm-releases/druid-operator-0.3.6.tgz
+    - https://charts.deep.bi/helm-releases/druid-operator-0.3.6.tgz
     version: 0.3.6
   - apiVersion: v2
     appVersion: v1.2.2
@@ -124,7 +65,7 @@ entries:
     name: druid-operator
     type: application
     urls:
-    - https://charts.datainfra.io/helm-releases/druid-operator-0.3.5.tgz
+    - https://charts.deep.bi/helm-releases/druid-operator-0.3.5.tgz
     version: 0.3.5
   - apiVersion: v2
     appVersion: v1.2.1
@@ -135,7 +76,7 @@ entries:
     name: druid-operator
     type: application
     urls:
-    - https://charts.datainfra.io/helm-releases/druid-operator-0.3.4.tgz
+    - https://charts.deep.bi/helm-releases/druid-operator-0.3.4.tgz
     version: 0.3.4
   - apiVersion: v2
     appVersion: v1.2.0
@@ -146,7 +87,7 @@ entries:
     name: druid-operator
     type: application
     urls:
-    - https://charts.datainfra.io/helm-releases/druid-operator-0.3.3.tgz
+    - https://charts.deep.bi/helm-releases/druid-operator-0.3.3.tgz
     version: 0.3.3
   - apiVersion: v2
     appVersion: v1.1.1
@@ -157,7 +98,7 @@ entries:
     name: druid-operator
     type: application
     urls:
-    - https://charts.datainfra.io/helm-releases/druid-operator-0.3.1.tgz
+    - https://charts.deep.bi/helm-releases/druid-operator-0.3.1.tgz
     version: 0.3.1
   - apiVersion: v2
     appVersion: v1.1.0
@@ -168,53 +109,6 @@ entries:
     name: druid-operator
     type: application
     urls:
-    - https://charts.datainfra.io/helm-releases/druid-operator-0.3.0.tgz
+    - https://charts.deep.bi/helm-releases/druid-operator-0.3.0.tgz
     version: 0.3.0
-  parseable:
-  - apiVersion: v2
-    appVersion: v0.0.1
-    created: "2025-10-08T20:06:21.962775297+05:30"
-    description: A Helm chart for Parseable Custom Resource
-    digest: 2574d4bb946b42f4a20a898d0e27b58cfbe2bb6f41c9bcbe0fa70d781b0564e3
-    name: parseable
-    type: application
-    urls:
-    - https://charts.datainfra.io/helm-releases/parseable-0.0.1.tgz
-    version: 0.0.1
-  pinot-control-plane:
-  - apiVersion: v2
-    appVersion: v0.0.9
-    created: "2025-10-08T20:06:21.965259619+05:30"
-    description: A Helm chart for Kubernetes
-    digest: 1c494f82cbf4e8687702778c7f9ff2bf08ad2305fcc2495dbdd50e738bba8a89
-    name: pinot-control-plane
-    type: application
-    urls:
-    - https://charts.datainfra.io/helm-releases/pinot-control-plane-0.0.9.tgz
-    version: 0.0.9
-  - apiVersion: v2
-    appVersion: v0.0.8
-    created: "2025-10-08T20:06:21.964043326+05:30"
-    description: A Helm chart for Kubernetes
-    digest: d469995caee43b74920bf232d3486f3a8f1efd23a61615e7eb326148f0634895
-    name: pinot-control-plane
-    type: application
-    urls:
-    - https://charts.datainfra.io/helm-releases/pinot-control-plane-0.0.8.tgz
-    version: 0.0.8
-  tigera-operator:
-  - apiVersion: v2
-    created: "2025-10-08T20:06:21.969815847+05:30"
-    description: Installs the Tigera operator for Calico
-    digest: 074e7853ac86b904a1af4a9c8a47d03ac43a4d7f4f8111b29d8daa8f6af5b3a9
-    home: https://projectcalico.docs.tigera.io/about/about-calico
-    icon: https://projectcalico.docs.tigera.io/images/felix_icon.png
-    name: tigera-operator
-    sources:
-    - https://github.com/projectcalico/calico/tree/master/calico/_includes/charts/tigera-operator
-    - https://github.com/tigera/operator
-    - https://github.com/projectcalico/calico
-    urls:
-    - https://charts.datainfra.io/helm-releases/tigera-operator-v3.26.1.tgz
-    version: v3.26.1
 generated: "2025-10-08T20:06:21.885114522+05:30"
